@@ -41,7 +41,7 @@ while True:
             files={
                 'image': open('./image_data/frame' + str(currentframe) + '.jpg', 'rb'),
             },
-            headers={'api-key': '64d573ac-eb55-4125-a004-1d553a95b576'}
+            headers={'api-key': '3bcfc7fe-0816-4732-a404-797b510631b4'}
         )
         response = r.json()
         print(response)
